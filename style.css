@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(98, 98, 98);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    width: 100%;
+}
+#saraki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.link{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
+    margin: 20px;
+}
+.link:hover{
+    font-weight: bolder;
+}
+.nusin{
+    border: 3px solid rgb(0, 0, 0);
+    width: 96%;
+    height: 60%;
+    color: snow;
+    text-align: right;
+    font-size: 30px;
+    margin: 30px;
+    border-radius: 50px;
+    padding: 10px;
+}
+#paiwandi{
+    width: 50%;
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50px;
+}
+ul{
+    list-style: none;
+}
+footer{
+    background-color: rgb(22, 137, 22);
+    height: 30px;
+    text-align: center;
+    margin-top: 80px;
+    color: snow;
+    font-size: 30px;
+    width: 100%;
+
+}
+.rasm{
+    width: auto;
+    margin: 30px;
+
+}
+#logo{
+    width: 40px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
